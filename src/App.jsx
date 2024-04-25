@@ -1,6 +1,7 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
+import Featured from "./components/Featured";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <Switch>
       <Route exact path="/">
         <HomePage />
+        <Featured />
       </Route>
     </Switch>
   );

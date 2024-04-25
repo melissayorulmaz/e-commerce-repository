@@ -8,7 +8,6 @@ function Header() {
     <div>
       <NavBarTop />
       <NavbarBottom />
-      <h1>Header</h1>
     </div>
   );
 }
