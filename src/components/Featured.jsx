@@ -1,5 +1,5 @@
 import React from 'react';
-
+//max width
 const Featured = () => {
   // Define your image URLs here
   const cardDetails = [
