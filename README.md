@@ -1,1 +1,2 @@
 https://e-commerce-app-one-sigma.vercel.app/
+https://vercel.com/new/melissa-yorulmazs-projects/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=e-commerce-repository-iq6f8juaa-melissa-yorulmazs-projects.vercel.app&projectName=e-commerce-repository&s=https%3A%2F%2Fgithub.com%2Fmelissayorulmaz%2Fe-commerce-repository&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1
