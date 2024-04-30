@@ -216,3 +216,10 @@ export const posts = [
     },
   ];
   
+  export const clothsPicturesData = [
+    {
+      imageUrl: "https://st3.depositphotos.com/12982378/16213/i/1600/depositphotos_162137418-stock-photo-shopaholic.jpg",
+      category: "CLOTHS",
+      items: "5 items"
+    }
+  ]
