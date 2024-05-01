@@ -4,6 +4,10 @@ import HomePage from "./pages/HomePage";
 import GreenPart from "./components/GreenPart";
 import Featured from "./components/Featured";
 import BuyMe from "./components/BuyMe";
+import ShopPage from "./pages/ShopPage";
+import DesktopCloths from "./components/shoppageComponents/DesktopCloths";
+import FilterSide from "./components/shoppageComponents/FilterSide";
+import CategoryList from "./components/shoppageComponents/CategoryList";
 
 
 function App() {
@@ -15,8 +19,13 @@ function App() {
         <BuyMe />
         <Featured />
       </Route>
+      <Route path="/shop">
+        <ShopPage />
+        <DesktopCloths />
+        <FilterSide />
+        <CategoryList />
+      </Route>
     </Switch>
   );
 }
-
 export default App;
