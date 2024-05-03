@@ -10,18 +10,18 @@ const DesktopCloths = () => {
           <h1 className="text-2xl font-bold uppercase">SHOP</h1>
           <p className="text-lg">Home / Shop</p>
         </div>
-        <div className="flex flex-row flex-wrap justify-start items-center mx-[-35px]">  
-          {clothsPicturesData.map((item, index) => (
-            <div className="px-[12px] flex-auto"> 
-              <ClothsItems
-                key={index}
-                imageUrl={item.imageUrl}
-                category={item.category}
-                items={item.items}
-              />
-            </div>
-          ))}
-        </div>
+        <div className="flex flex-col sm:flex-row flex-wrap justify-start items-center mx-[-35px]">
+  {clothsPicturesData.map((item, index) => (
+    <div className="px-[12px] flex-auto sm:w-1/5">
+      <ClothsItems
+        key={index}
+        imageUrl={item.imageUrl}
+        category={item.category}
+        items={item.items}
+      />
+    </div>
+  ))}
+</div>
       </div>
     </section>
   );
