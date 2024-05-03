@@ -146,7 +146,7 @@ export const posts = [
   export const topSliderData = [
     {
       id: 1,
-      url: "https://s3-alpha-sig.figma.com/img/96c8/6912/d491d421800e62998b9af7c838cc25d1?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fMd0TpvHwm-5FftP7jkJzEmzf59eKBHetVCGhp8PlrCI8twT4fFEpOUYF8fCSJgdrjB8tZvGeKXkVLehXbY9I9XihZL3KxyO3QCuaFVpd7022miy1Ifrhpj275kU4Uxc20twESSse7taKv-EaqvkCL-hFhS-IajdT7FOBfdgMm0orQHulP9NEJ-Pi4LbNj5YqZnXggEkxkFYDfND8iac-JSY~J5-ly6wlu6wf5U3fqt4DHveHDkt3jyB-soG9WSjCvhJRgU4SOx9SCJzptqf8fFuNjdPc2~tRbTmuMjROGT5d6-W88M4U4uIuEY-uNNi78M1YuSbuIz3XFApe3XTIw__",
+      url: "https://runwaymagazines.com/wp-content/uploads/2021/11/1-RUNWAY-MAGAZINE-Fashion-Photography-Winter-2021-Photo-Domenico-Donadio-Versace-Jeans-Couture.jpg",
       season: "SUMMER 2020",
       category: "NEW COLLECTION",
       description:
@@ -156,7 +156,7 @@ export const posts = [
     },
     {
       id: 2,
-      url: "https://www.usmagazine.com/wp-content/uploads/2022/09/City-Girl-Fashion-Stock-Photo.jpg?crop=0px%2C49px%2C2000px%2C1131px&resize=1600%2C900&quality=86&strip=allt",
+      url: "https://t4.ftcdn.net/jpg/03/20/68/73/360_F_320687332_wf9TF1Ar7zm2yz3cNtRp3XBb4druKP27.jpg",
       season: "SUMMER 2020",
       category: "NEW COLLECTION",
       description:
@@ -167,7 +167,7 @@ export const posts = [
   
     {
       id: 3,
-      url: "https://foto.sondakika.com/haber/2021/06/26/iste-kanserle-mucadele-eden-canan-erguder-in-son-14227724_1514_amp.jpg",
+      url: "https://petapixel.com/assets/uploads/2021/04/02_Illya-Ovchar-copy-800x534.jpg",
       season: "SUMMER 2020",
       category: "NEW COLLECTION",
       description:
@@ -177,7 +177,7 @@ export const posts = [
     },
     {
       id: 4,
-      url: "https://icdn.ensonhaber.com/crop/1200x675/resimler/diger/kok/2024/02/29/65e00892d83bf145.jpg",
+      url: "https://img.freepik.com/free-photo/portrait-pretty-blonde-model-sitting-table-white-casual-warm-knitted-sweater-black-hat_273443-2244.jpg",
       season: "SUMMER 2020",
       category: "NEW COLLECTION",
       description:
