@@ -397,3 +397,60 @@ export const posts = [
       salePrice: "6.48",
     },
   ];
+  export const teams = [
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+    {
+      imageUrl1:
+      "https://static.bershka.net/4/photos2/2024/V/0/1/p/3477/180/712//01/3477180712_2_24_3.jpg?t=1713944427758",
+      username: "Username",
+      profession: "Profession",
+    },
+
+  ]

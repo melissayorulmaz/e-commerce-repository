@@ -3,6 +3,7 @@ import HomePage from "../pages/HomePage";
 import ShopPage from "../pages/ShopPage";
 import ProductDetailPage from "../pages/ProductDetailPage";
 import { Route, Switch } from "react-router-dom";
+import TeamPage from "../pages/TeamPage";
 
 function PageContent() {
   return (
@@ -16,6 +17,9 @@ function PageContent() {
         </Route>
         <Route exact path="/productdetailpage">
           <ProductDetailPage />
+        </Route>
+        <Route exact path="/teampage">
+          <TeamPage /> 
         </Route>
       </Switch>
     </div>
