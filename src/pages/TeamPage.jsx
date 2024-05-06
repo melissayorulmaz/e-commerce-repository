@@ -1,4 +1,5 @@
 import React from 'react';
+import { teams } from "../data/data";
 
 const TeamPage = () => {
   const imageUrl = "https://www.shutterstock.com/image-photo/beautiful-sexy-brunette-woman-tanned-600nw-1686851977.jpg";
@@ -22,7 +23,7 @@ const TeamPage = () => {
         </div>
         <div className="mt-10">
           <h3 className="text-lg font-semibold mb-4">WHAT WE DO</h3>
-          <h2 className="text-4xl md:text-9xl font-bold mb-2">Innovation tailored for you</h2>
+          <h1 className="text-15xl md:text-20xl font-bold mb-2">Innovation tailored for you</h1>
           <div className="flex justify-center">
             <a href="#" className="text-blue-500 hover:underline">Home</a>
             <span className="mx-2">/</span>
@@ -30,7 +31,7 @@ const TeamPage = () => {
           </div>
         </div>
       </header>
-      <div className="container mx-auto flex">
+      <div className="container mx-auto flex mb-10">
         <div className="w-1/2">
           <img src={imageUrl} alt="Large Image" className="w-full h-auto" />
         </div>
@@ -41,9 +42,27 @@ const TeamPage = () => {
           <img src={imageUrl} alt="Image 4" className="w-full h-full" />
         </div>
       </div>
+      {/* Meet Our Team Section */}
+      <div className="container mx-auto px-4 py-5" style={{ maxWidth: '1050px' }}>
+        <h1 className="text-center font-bold text-3xl mb-6" style={{ fontFamily: 'Montserrat, sans-serif' }}>Meet Our Team</h1>
+        <div className="flex justify-center gap-4 flex-wrap">
+          {teams.map((member, index) => (
+            <div key={index} className="bg-white shadow rounded overflow-hidden" style={{ width: '280px', height: '400px', margin: "20px", border: 'none', fontFamily: 'Montserrat, sans-serif' }}>
+              <img src={member.imageUrl1} alt="Team member" className="w-full" style={{ height: '50%' }} />
+              <div className="p-4 text-center flex flex-col justify-center" style={{ height: '50%' }}>
+                <h2 className="font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>{member.username}</h2>
+                <p style={{ fontFamily: 'Montserrat, sans-serif' }}>{member.profession}</p>
+                <div className="flex justify-center space-x-2 mt-2">
+                  <a href="#"><img src="https://as2.ftcdn.net/v2/jpg/03/98/85/79/1000_F_398857973_UhCly9tl1bQyGmkKJkKqgijRu5CB8G6T.jpg" style={{ width: '30px', height: '30px',  }} /></a>
+                  <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnX7BCTGyakX1OloAICwyZXJ5waWsx_nzhq_31jFZQ6A&s" style={{ width: '30px', height: '30px',  }} /></a>
+                  <a href="#"><img src ="https://download.logo.wine/logo/Twitter/Twitter-Logo.wine.png" style={{ width: '30px', height: '30px', }} /></a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
-    
   );
 }
-
 export default TeamPage;
