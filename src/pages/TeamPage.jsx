@@ -23,7 +23,7 @@ const TeamPage = () => {
         </div>
         <div className="mt-10">
           <h3 className="text-lg font-semibold mb-4">WHAT WE DO</h3>
-          <h1 className="text-15xl md:text-20xl font-bold mb-2">Innovation tailored for you</h1>
+          <h1 className="text-h1 font-bold text-center mb-6">Innovation tailored for you</h1>
           <div className="flex justify-center">
             <a href="#" className="text-blue-500 hover:underline">Home</a>
             <span className="mx-2">/</span>
@@ -44,7 +44,7 @@ const TeamPage = () => {
       </div>
       {/* Meet Our Team Section */}
       <div className="container mx-auto px-4 py-5" style={{ maxWidth: '1050px' }}>
-        <h1 className="text-center font-bold text-3xl mb-6" style={{ fontFamily: 'Montserrat, sans-serif' }}>Meet Our Team</h1>
+        <h1 className="text-h2 font-bold text-center mb-6" style={{ fontFamily: 'Montserrat, sans-serif' }}>Meet Our Team</h1>
         <div className="flex justify-center gap-4 flex-wrap">
           {teams.map((member, index) => (
             <div key={index} className="bg-white shadow rounded overflow-hidden" style={{ width: '280px', height: '400px', margin: "20px", border: 'none', fontFamily: 'Montserrat, sans-serif' }}>
@@ -61,6 +61,65 @@ const TeamPage = () => {
             </div>
           ))}
         </div>
+        <div className="">
+      <div className=" container flex flex-col mx-auto py-8 max-w-xl">
+        <div>
+          <h2
+            className="text-h2 font-bold text-center mb-6"
+            id="feature-section"
+          >
+            Start your 14 days free trial
+          </h2>
+          <p className="text-h4 text-center text-second-text-color">
+          Sed ut perspiciatis unde omnis iste natus error sit,
+           totam rem aperiam, eaque ipsa quae ab illo inventore.
+          </p>
+        </div>
+        <div className="flex justify-center my-8">
+          <button className="btn-blue w-[272px] h-[52px] text-paragraph font-semibold">
+           Try it free now
+          </button>
+        </div>
+        <div className="flex justify-center">
+          <a
+            href="https://twitter.com/i/flow/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/twitterlogo.svg" className=" mx-5" />
+          </a>
+          <a
+            href="https://www.facebook.com/login/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/facebooklogo.svg"
+            
+              className=" mx-5"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/accounts/login/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/instagramlogo.svg"
+             
+              className=" mx-5"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/linkedinlogo.svg"  className="mx-5" />
+          </a>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   );
