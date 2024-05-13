@@ -452,5 +452,14 @@ export const posts = [
       username: "Username",
       profession: "Profession",
     },
-
   ]
+  export const relevantVideos = [
+    {
+      url: "https://pixabay.com/tr/videos/kad%C4%B1n-model-g%C3%BCn-bat%C4%B1m%C4%B1-elbise-192667/",
+      id: "fashion video",
+    },
+    {
+      url: "https://youtu.be/z4ojOvEQZ3k",
+      id: "Workintech Tanıtım",
+    },
+  ];
