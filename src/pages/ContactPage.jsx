@@ -27,7 +27,7 @@ const ContactPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/twitterlogo.svg" alt="Twitter Logo" className=" mx-5" />
+            <img src="/twitterlogo.svg" className=" mx-5" />
           </a>
           <a
             href="https://www.facebook.com/login/"
@@ -36,7 +36,7 @@ const ContactPage = () => {
           >
             <img
               src="/facebooklogo.svg"
-              alt="Facebook Logo"
+              
               className=" mx-5"
             />
           </a>
@@ -47,7 +47,7 @@ const ContactPage = () => {
           >
             <img
               src="/instagramlogo.svg"
-              alt="Instagram Logo"
+              
               className=" mx-5"
             />
           </a>
@@ -56,7 +56,7 @@ const ContactPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/linkedinlogo.svg" alt="LinkedIn Logo" className="mx-5" />
+            <img src="/linkedinlogo.svg"  className="mx-5" />
           </a>
         </div>
       </div>
